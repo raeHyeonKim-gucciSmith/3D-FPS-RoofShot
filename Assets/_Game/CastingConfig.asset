@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15e02f59838a4b41ab7143140eab396, type: 3}
+  m_Name: CastingConfig
+  m_EditorClassIdentifier: Assembly-CSharp::RooftopContract.CastingConfig
+  vipPrefabs:
+  - {fileID: 919132149155446097, guid: 3cadc17c0b0a01a4babc185a471c43e2, type: 3}
+  - {fileID: 919132149155446097, guid: 19e2b83bb0ed3fa4f8582da89c10bd3e, type: 3}
+  - {fileID: 919132149155446097, guid: f0a4ffda0ccf71342baacbf68fcc9047, type: 3}
+  protectorPrefabs:
+  - {fileID: 919132149155446097, guid: dd5fa486b9fe4774db00a90dbe47dbe3, type: 3}
+  - {fileID: 919132149155446097, guid: b88f1b36197752443abfe39827f86af9, type: 3}
+  assaultPrefabs:
+  - {fileID: 919132149155446097, guid: 1a36dd6373b90ae48805c66b8058dd85, type: 3}
+  civilianPrefabs:
+  - {fileID: 4122453710300561639, guid: ac0210fc0a452fd41a347ec725393bc7, type: 3}
+  - {fileID: 4897497633101507693, guid: 45f2386ce67e6954db37fa2219e36f0c, type: 3}
+  - {fileID: 547590651722212406, guid: 9465bec6252f65e49bf8cbbddf88aec8, type: 3}
+  walkClip: {fileID: -203655887218126122, guid: 1c038fea437f9ae4786dc2f070230cdc, type: 3}
+  idleClip: {fileID: 0}
+  normalizeHeight: 1
+  targetHeight: 1.8
+  groundPivot: 1
+  modelYawOffset: 0
+  headHeightFraction: 0.24
+  headPadding: 1
+  bodyPadding: 1
+  maxBodyWidthFraction: 0.5
+  headDamageMultiplier: 4
+  weaponGripManual: 1
+  weaponHandOffset: {x: -0.079276346, y: 0.11068773, z: 0.010470461}
+  weaponHandEuler: {x: -83.60712, y: -53.808838, z: 146.10603}
+  leftHandIK: 1
+  leftHandIKPositionWeight: 1
+  leftHandIKRotationWeight: 0.7
+  weaponSupportCaptured: 1
+  weaponSupportOffset: {x: -0.24745296, y: -0.0053194994, z: 0.19095795}
+  weaponSupportEuler: {x: 26.747105, y: -170.87085, z: 140.06102}
+  pistolGripManual: 1
+  pistolHandOffset: {x: -0.041981194, y: 0.1130245, z: -0.024483815}
+  pistolHandEuler: {x: -60.361267, y: 97.78514, z: -63.467712}
+  pistolLeftHandIK: 1
+  pistolSupportCaptured: 1
+  pistolSupportOffset: {x: -0.21287796, y: -0.008852065, z: -0.07292725}
+  pistolSupportEuler: {x: 74.39812, y: -143.15656, z: -155.67882}
+  protectorPistolGripManual: 1
+  protectorPistolHandOffset: {x: -0.020162001, y: 0.13386339, z: -0.056388844}
+  protectorPistolHandEuler: {x: -65.05072, y: 104.13702, z: -67.36792}
+  protectorPistolLeftHandIK: 1
+  protectorPistolSupportCaptured: 1
+  protectorPistolSupportOffset: {x: -0.20662294, y: -0.056036066, z: -0.09552105}
+  protectorPistolSupportEuler: {x: 71.63299, y: -150.41139, z: -164.92542}
+  protectorPistolLength: 0.2517282
+  assaultPrimaryGripManual: 1
+  assaultPrimaryHandOffset: {x: 0.041611467, y: 0.088160664, z: -0.082199186}
+  assaultPrimaryHandEuler: {x: -39.048462, y: 102.91501, z: -45.28058}
+  assaultPrimaryLeftHandIK: 1
+  assaultPrimarySupportCaptured: 1
+  assaultPrimarySupportOffset: {x: -0.18242188, y: -0.020559447, z: 0.305538}
+  assaultPrimarySupportEuler: {x: 31.24875, y: 118.059715, z: 70.97347}
+  assaultPrimaryLength: 0.90001225
+  weaponGripOffset: {x: 0, y: 0.03, z: 0}
+  weaponExtraEuler: {x: 0, y: 0, z: 0}
+  weaponFallbackHeightFraction: 0.62
+  smgLength: 0.7855459
+  pistolLength: 0.22751448
+  vipHealth: 90
+  protectorHealth: 90
+  assaultHealth: 70
+  civilianHealth: 60
+  agentRadius: 0.32

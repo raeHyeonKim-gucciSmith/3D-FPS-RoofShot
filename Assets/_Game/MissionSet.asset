@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf7c73d34e848c047b2874e11b6315e0, type: 3}
+  m_Name: MissionSet
+  m_EditorClassIdentifier: Assembly-CSharp::RooftopContract.MissionSet
+  assetVersion: 7
+  missions:
+  - codename: HIGH TABLE
+    brief: "\uD45C\uC801\uC774 \uC625\uC0C1 \uD14C\uB77C\uC2A4\uC5D0\uC11C \uC811\uC120 \uC911\uC774\uB2E4. \uACBD\uD638\uB294 \uB290\uC2A8\uD558\uB2E4."
+    vipPrefab: {fileID: 919132149155446097, guid: 3cadc17c0b0a01a4babc185a471c43e2, type: 3}
+    difficulty: 1
+    targetName: ARMAND VOSS
+    targetNote: "\uBB34\uAE30 \uC911\uAC1C\uC778 \xB7 \uC625\uC0C1 \uD68C\uD569"
+    strikeByClock: 19:40
+    pickupClock: 19:47
+    mapSeed: 20260901
+    venue: 0
+    targetGroundY: 34
+    engagementRange: 250
+    elevationAdvantage: 30
+    playerRifleLocalPosition: {x: 0.1, y: -0.5936172, z: 1.1311338}
+    playerRifleLocalEuler: {x: 326.74496, y: 0, z: 0}
+    sniperAmmo: 6
+    protectorCount: 3
+    shieldTightenTime: 2.6
+    strikeWindow: 0
+    assaultDelay: 17
+    survivalDuration: 40
+    assaultMaxAlive: 5
+    assaultSpawnInterval: {x: 3.5, y: 7}
+  - codename: STREET LEVEL
+    brief: "\uD45C\uC801\uC774 \uCC28\uB7C9\uC5D0\uC11C \uB0B4\uB824 \uB85C\uBE44\uB85C \uC774\uB3D9\uD55C\uB2E4. \uC774\uB3D9 \uACBD\uB85C\uB97C \uC608\uCE21\uD574 \uC870\uC900\uD558\uB77C."
+    vipPrefab: {fileID: 919132149155446097, guid: 19e2b83bb0ed3fa4f8582da89c10bd3e, type: 3}
+    difficulty: 2
+    targetName: DEAN MARLOWE
+    targetNote: "\uC790\uAE08 \uC138\uD0C1 \xB7 \uB3C4\uBCF4 \uC774\uB3D9 \uC911"
+    strikeByClock: 20:05
+    pickupClock: 20:13
+    mapSeed: 771903
+    venue: 1
+    targetGroundY: 0
+    engagementRange: 300
+    elevationAdvantage: 58
+    playerRifleLocalPosition: {x: 0.1, y: -0.499, z: 1.156}
+    playerRifleLocalEuler: {x: 324.33368, y: 0, z: 0}
+    sniperAmmo: 5
+    protectorCount: 4
+    shieldTightenTime: 2.3
+    strikeWindow: 0
+    assaultDelay: 17
+    survivalDuration: 40
+    assaultMaxAlive: 6
+    assaultSpawnInterval: {x: 3, y: 6}
+  - codename: WHEELS UP
+    brief: "\uD45C\uC801\uC774 \uD5EC\uAE30\uB85C \uC774\uB3D9 \uC911\uC774\uB2E4. \uD0D1\uC2B9\uD558\uAE30 \uC804\uC5D0 \uC81C\uAC70\uD558\uB77C."
+    vipPrefab: {fileID: 919132149155446097, guid: f0a4ffda0ccf71342baacbf68fcc9047, type: 3}
+    difficulty: 3
+    targetName: KAREL SIDOROV
+    targetNote: "\uCD9C\uAD6D \uC608\uC815 \xB7 \uD5EC\uB9AC\uD328\uB4DC \uB300\uAE30"
+    strikeByClock: 21:12
+    pickupClock: 21:20
+    mapSeed: 44127
+    venue: 2
+    targetGroundY: 34
+    engagementRange: 210
+    elevationAdvantage: 42
+    playerRifleLocalPosition: {x: 0.1, y: -0.499, z: 1.156}
+    playerRifleLocalEuler: {x: 324.33368, y: 0, z: 0}
+    sniperAmmo: 4
+    protectorCount: 5
+    shieldTightenTime: 2
+    strikeWindow: 75
+    assaultDelay: 17
+    survivalDuration: 40
+    assaultMaxAlive: 8
+    assaultSpawnInterval: {x: 2.2, y: 5}
